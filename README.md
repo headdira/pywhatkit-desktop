@@ -18,7 +18,8 @@ com a opção de enviar mensagens de texto simples ou texto com imagem.
 - Python 3.x
 - PyWhatKit (`pip install pywhatkit`)
 - Tkinter (geralmente incluso no Python)
-- Arquivo CSV contendo os contatos com as colunas "nome" (nome do contato) e "numero" (número de telefone)
+- Arquivo CSV contendo os contatos com as colunas
+ "nome" (nome do contato) e "numero" (número de telefone)
 
 ## Instalação:
 1. Clone ou faça o download deste repositório.
