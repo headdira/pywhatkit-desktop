@@ -1,7 +1,9 @@
 ```markdown
 # Pywhatkit-desktop
 
-Aplicativo desktop desenvolvido em Python e Tkinter para envio de mensagens em massa no WhatsApp. Permite enviar mensagens personalizadas para múltiplos contatos, com a opção de enviar mensagens de texto simples ou texto com imagem.
+Aplicativo desktop desenvolvido em Python e Tkinter para envio de mensagens em massa no WhatsApp.
+Permite enviar mensagens personalizadas para múltiplos contatos,
+com a opção de enviar mensagens de texto simples ou texto com imagem.
 
 ## Funcionalidades:
 - Carregar um arquivo CSV com nomes e números de telefone dos contatos.
