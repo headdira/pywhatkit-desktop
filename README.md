@@ -76,15 +76,11 @@ whatsapp-messenger-pro/
 - **Problemas com Imagens**: Verifique o caminho do arquivo e formatos suportados (jpg, png)
 - **WhatsApp Web**: Mantenha o WhatsApp Web ativo durante o envio das mensagens
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
 ## 📄 Licença
 
-Este projeto é de código aberto e disponível para uso ou modificação.
+Licença de uso anual R$ 97.
 
-## 📞 Suporte
+## 📞 Suporte e Adquirir licença
 
 Contato miniibooking@gmail.com
 
