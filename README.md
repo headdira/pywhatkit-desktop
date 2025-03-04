@@ -1,10 +1,10 @@
-# WhatsApp Messenger Pro 
+# Pywhatkit-Desktop 
 
 > Aplicativo desktop para envio automatizado de mensagens personalizadas em massa no WhatsApp, desenvolvido com Python e Tkinter.
 
 ## 📋 Visão Geral
 
-WhatsApp Messenger Pro automatiza o processo de envio de mensagens personalizadas para múltiplos contatos no WhatsApp. Combina uma interface gráfica intuitiva com recursos avançados de mensagens.
+Pywhatkit-Desktop automatiza o processo de envio de mensagens personalizadas para múltiplos contatos no WhatsApp. Combina uma interface gráfica intuitiva com recursos avançados de mensagens.
 
 ### ✨ Principais Recursos
 
