@@ -1,64 +1,137 @@
-```markdown
-# Pywhatkit-desktop
+# WhatsApp Messenger Pro 
 
-Aplicativo desktop desenvolvido em Python e Tkinter para envio de mensagens em massa no WhatsApp.
-Permite enviar mensagens personalizadas para múltiplos contatos,
-com a opção de enviar mensagens de texto simples ou texto com imagem.
+> Aplicativo desktop para envio automatizado de mensagens personalizadas em massa no WhatsApp, desenvolvido com Python e Tkinter.
 
-## Funcionalidades:
-- Carregar um arquivo CSV com nomes e números de telefone dos contatos.
-- Personalizar mensagens utilizando placeholders, como `{nome}`.
-- Enviar mensagens em dois formatos:
-  - **Apenas Texto**.
-  - **Texto com Imagem**.
-- Seleção fácil de imagens para envio com as mensagens.
-- Notificações de sucesso ou erro.
+## 📋 Visão Geral
 
-## Requisitos:
-- Python 3.x
-- PyWhatKit (`pip install pywhatkit`)
-- Tkinter (geralmente incluso no Python)
-- Arquivo CSV contendo os contatos com as colunas
- "nome" (nome do contato) e "numero" (número de telefone)
+WhatsApp Messenger Pro automatiza o processo de envio de mensagens personalizadas para múltiplos contatos no WhatsApp. Combina uma interface gráfica intuitiva com recursos avançados de mensagens.
 
-## Instalação:
-1. Clone ou faça o download deste repositório.
-2. Instale as dependências:
+### ✨ Principais Recursos
+
+- 📱 Envio de mensagens em massa para contatos do WhatsApp
+- 🎯 Personalização de mensagens com nomes dos destinatários usando variáveis como `{nome}`
+- 📸 Suporte para envio de mensagens com texto e imagem
+- 📊 Importação simplificada de contatos via arquivo CSV
+- 🔔 Notificações em tempo real de sucesso/erro
+
+## 🚀 Como Começar
+
+### Pré-requisitos
+
+- Python 3.13.1
+- Conta no WhatsApp Web
+- Conexão com a Internet
+
+### 📥 Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/headdira/pywhatkit-desktop.git
+   cd pywhatkit-desktop
+   ```
+
+2. Instale os pacotes necessários:
    ```bash
    pip install pywhatkit
    ```
 
-## Como Usar:
+### 📝 Formato do Arquivo CSV
 
-1. **Execute o Aplicativo:**
+Seu arquivo CSV de contatos deve incluir:
+
+| nome | numero |
+|------|--------|
+| João | +5511999999999 |
+| Maria | +5511988888888 |
+
+> Observação: Os números de telefone devem incluir o código do país (ex: +55 para Brasil)
+
+## 💻 Como Usar
+
+1. Inicie o aplicativo:
    ```bash
    python app.py
    ```
 
-2. **Carregue os Contatos:**
-   - Clique no botão **"📤 Carregar CSV"** para selecionar um arquivo CSV.
-   - O CSV deve conter duas colunas: `nome` (nome do contato) e `numero` (número de telefone).
+2. Siga estes passos:
+   1. Clique em `📤 Carregar CSV` para carregar seu arquivo de contatos
+   2. Digite sua mensagem na caixa de texto (use `{nome}` para personalização)
+   3. Para mensagens com imagem:
+      - Clique em `📷 Adicionar Imagem`
+      - Selecione seu arquivo de imagem
+   4. Clique em `📤 Enviar Mensagens` para iniciar o envio
 
-3. **Componha Sua Mensagem:**
-   - Digite a mensagem na caixa de texto.
-   - Utilize `{nome}` como um placeholder para o nome de cada contato.
-   - Escolha entre enviar apenas texto ou incluir uma imagem.
+## 📁 Estrutura do Projeto
 
-4. **Adicione uma Imagem (Opcional):**
-   - Se for enviar uma imagem, clique no botão **"📷 Adicionar Imagem"** e selecione o arquivo de imagem.
-
-5. **Envie as Mensagens:**
-   - Clique no botão **"📤 Enviar Mensagens"** para enviar as mensagens.
-   - O aplicativo enviará as mensagens para cada contato do arquivo CSV.
-
-## Estrutura de Arquivos:
-- `app.py`: Arquivo principal do aplicativo, contendo a lógica.
-- `PyWhatKit_DB.txt`: Armazena os dados dos contatos e mensagens.
-
-## Problemas Comuns:
-- Certifique-se de que o campo `numero` no arquivo CSV esteja formatado corretamente com o código do país (exemplo: `+5511999999999` para o Brasil).
-- Verifique se o caminho do arquivo de imagem é válido ao enviar mensagens com mídia.
-
-## Licença:
 ```
-O valor da licença anual da aplicação é R$ 97. Entre em contato +55(31) 99365-8409. Atenciosamente, Gerson Moreira.
+whatsapp-messenger-pro/
+├── app.py               # Código principal do aplicativo
+├── requirements.txt     # Dependências Python
+└── PyWhatKit_DB.txt    # Registros de mensagens
+```
+
+## ⚠️ Solução de Problemas
+
+- **Formato do Número**: Certifique-se que os números incluam código do país (+5511999999999)
+- **Problemas com Imagens**: Verifique o caminho do arquivo e formatos suportados (jpg, png)
+- **WhatsApp Web**: Mantenha o WhatsApp Web ativo durante o envio das mensagens
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
+
+## 📄 Licença
+
+Este projeto é de código aberto e disponível para uso ou modificação.
+
+## 📞 Suporte
+
+Contato miniibooking@gmail.com
+
+---
+
+### 📌 Dicas de Uso
+
+1. **Preparação dos Contatos**:
+   - Verifique se todos os números estão no formato correto
+   - Remova espaços extras nos nomes
+   - Evite caracteres especiais no arquivo CSV
+
+2. **Mensagens**:
+   - Teste primeiro com poucos contatos
+   - Verifique a formatação antes do envio em massa
+   - Mantenha uma cópia de segurança do texto das mensagens
+
+3. **Melhores Práticas**:
+   - Evite enviar mensagens em horários inadequados
+   - Respeite os limites de envio do WhatsApp
+   - Mantenha o computador conectado durante o processo
+
+### 🔧 Configurações Recomendadas
+
+- **Sistema Operacional**: Windows 10/11, Linux ou macOS
+- **Navegador**: Chrome ou Firefox atualizado
+- **Resolução Mínima**: 1280x720
+- **Memória RAM**: 4GB ou superior
+
+### 📊 Recursos Adicionais
+
+- Monitor de status de envio
+- Log detalhado de mensagens
+- Backup automático de configurações
+- Suporte a múltiplos formatos de imagem
+
+### 🚫 Limitações Conhecidas
+
+1. Necessário manter WhatsApp Web ativo
+2. Limite de envios conforme políticas do WhatsApp
+3. Necessária conexão estável com a internet
+
+## 📱 Compatibilidade
+
+O sistema é compatível com as seguintes versões do WhatsApp:
+- WhatsApp Web
+- WhatsApp Desktop
+- WhatsApp Business (web)
+
+> **Importante**: Mantenha sempre seu WhatsApp e navegador atualizados para melhor compatibilidade.
