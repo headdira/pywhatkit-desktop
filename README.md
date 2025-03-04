@@ -78,9 +78,9 @@ whatsapp-messenger-pro/
 
 ## 📄 Licença
 
-Licença de uso anual R$ 97.
+Codigo aberto, contribuições são bem vindas.
 
-## 📞 Suporte e Adquirir licença
+## 📞 Suporte
 
 Contato miniibooking@gmail.com
 
